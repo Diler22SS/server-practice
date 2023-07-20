@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const Result = require("./models/results");
-const resultRoutes = require("./routes/api/result-routes");
+const resultRoutes = require("./routes/result-routes");
 
 const PORT = 3000;
 const URL =
